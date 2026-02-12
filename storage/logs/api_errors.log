@@ -1,0 +1,603 @@
+[02-Feb-2026 18:01:03 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[02-Feb-2026 18:01:03 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[02-Feb-2026 18:39:33 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[02-Feb-2026 18:39:33 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[02-Feb-2026 18:40:18 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[02-Feb-2026 18:40:18 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[03-Feb-2026 11:56:12 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[03-Feb-2026 11:56:12 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[06-Feb-2026 01:47:15 America/Santiago] DB (with DB) Connection Error: SQLSTATE[HY000] [1044] Access denied for user 'zabbixuser'@'%' to database 'CMDBVilaseca'
+[06-Feb-2026 01:47:15 America/Santiago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/VILASECA/CMDB/src/auth.php:58
+Stack trace:
+#0 /var/www/html/VILASECA/CMDB/public/login.php(12): login_user()
+#1 {main}
+  thrown in /var/www/html/VILASECA/CMDB/src/auth.php on line 58
+[06-Feb-2026 01:48:14 America/Santiago] DB (with DB) Connection Error: SQLSTATE[HY000] [1044] Access denied for user 'zabbixuser'@'%' to database 'CMDBVilaseca'
+[06-Feb-2026 01:48:14 America/Santiago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/VILASECA/CMDB/src/auth.php:58
+Stack trace:
+#0 /var/www/html/VILASECA/CMDB/public/login.php(12): login_user()
+#1 {main}
+  thrown in /var/www/html/VILASECA/CMDB/src/auth.php on line 58
+[06-Feb-2026 01:50:30 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:50:30 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:50:30 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:50:30 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:51:38 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:51:38 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:51:38 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:51:38 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:56:01 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:56:01 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:56:01 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:56:01 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:56:15 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:56:15 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 64
+[06-Feb-2026 01:56:15 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:56:15 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/monitoreo.php on line 167
+[06-Feb-2026 01:57:13 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:57:13 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:57:13 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:57:13 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:57:58 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:57:58 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:57:58 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:57:58 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:04 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:04 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:04 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:04 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:11 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:11 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:11 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:11 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:24 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:24 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:24 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:24 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:27 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:27 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 01:58:27 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 01:58:27 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:01:43 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:01:43 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:01:43 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:01:43 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:01:54 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:01:54 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:01:54 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:01:54 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:02:00 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:02:00 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:02:00 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:02:00 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:10:07 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:10:07 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:10:07 America/Santiago] PHP Warning:  include(..rtials/footer.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:10:07 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 116
+[06-Feb-2026 02:12:24 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:12:24 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:12:26 America/Santiago] PHP Warning:  include(..rtials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 02:12:26 America/Santiago] PHP Warning:  include(): Failed opening '..rtials/header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/problems.php on line 53
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/index.php on line 14
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/index.php on line 14
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[06-Feb-2026 11:10:34 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[06-Feb-2026 11:10:46 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[06-Feb-2026 12:35:25 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[06-Feb-2026 12:35:25 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[06-Feb-2026 12:39:01 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[06-Feb-2026 12:39:01 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[06-Feb-2026 12:39:07 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[06-Feb-2026 12:39:07 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[06-Feb-2026 12:40:21 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[06-Feb-2026 12:40:21 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[06-Feb-2026 19:08:05 America/Santiago] PHP Warning:  preg_replace(): Unknown modifier 'h' in /var/www/html/VILASECA/CMDB/public/item_create.php on line 18
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/index.php on line 14
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/index.php on line 14
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:49:43 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:49:54 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:50:06 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[09-Feb-2026 12:51:28 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 12:51:28 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 12:51:48 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 12:51:48 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 12:57:52 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_relaciones
+[09-Feb-2026 12:57:52 America/Santiago] Consultando tabla 'sheet_relaciones': Se encontraron 4 filas.
+[09-Feb-2026 12:57:56 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 12:57:56 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 13:17:18 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 13:17:18 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 13:19:00 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ap, sheet_equipos
+[09-Feb-2026 13:19:00 America/Santiago] Consultando tabla 'sheet_ap': Se encontraron 140 filas.
+[09-Feb-2026 13:19:00 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 13:19:03 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ap
+[09-Feb-2026 13:19:03 America/Santiago] Consultando tabla 'sheet_ap': Se encontraron 140 filas.
+[09-Feb-2026 13:19:08 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ups
+[09-Feb-2026 13:19:08 America/Santiago] Consultando tabla 'sheet_ups': Se encontraron 36 filas.
+[09-Feb-2026 13:19:48 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 13:19:48 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 13:24:39 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 13:24:39 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 13:24:49 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 13:24:49 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:22:50 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:22:50 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:23:13 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:23:13 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:24:56 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:24:56 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:31:44 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:31:44 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 17:34:49 UTC] PHP Fatal error:  Cannot redeclare function getTableColumns() (previously declared in /var/www/html/VILASECA/CMDB/public/api_action.php:51) in /var/www/html/VILASECA/CMDB/src/helpers.php on line 18
+[09-Feb-2026 14:36:50 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:36:50 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:37:57 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:37:57 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:39:24 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:39:24 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:39:35 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:39:35 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:41:55 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:41:55 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:45:04 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:45:04 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:46:51 America/Santiago] PHP Warning:  Undefined array key "tags_config" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 148
+[09-Feb-2026 14:46:51 America/Santiago] Error guardando mapeo: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'visible_name_template' in 'INSERT INTO'
+[09-Feb-2026 14:49:14 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:49:14 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:50:01 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:50:01 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:50:46 America/Santiago] PHP Warning:  Undefined array key "tags_config" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 148
+[09-Feb-2026 14:50:46 America/Santiago] Error guardando mapeo: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'visible_name_template' in 'INSERT INTO'
+[09-Feb-2026 14:53:15 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:53:15 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:53:44 America/Santiago] Error en save_zabbix_mapping: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'visible_name_template' in 'INSERT INTO'
+[09-Feb-2026 14:55:10 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:55:10 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 14:55:42 America/Santiago] Error en save_zabbix_mapping: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'visible_name_template' in 'INSERT INTO'
+[09-Feb-2026 14:55:59 America/Santiago] Error en save_zabbix_mapping: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'visible_name_template' in 'INSERT INTO'
+[09-Feb-2026 14:57:13 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 14:57:13 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 15:00:12 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 15:00:12 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined array key "snmp_ip_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 248
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined array key "visible_name_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 270
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined variable $tags in /var/www/html/VILASECA/CMDB/public/api_action.php on line 274
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined variable $inventory_data in /var/www/html/VILASECA/CMDB/public/api_action.php on line 276
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined array key "snmp_ip_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 248
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined array key "visible_name_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 270
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined variable $tags in /var/www/html/VILASECA/CMDB/public/api_action.php on line 274
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined variable $inventory_data in /var/www/html/VILASECA/CMDB/public/api_action.php on line 276
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined array key "snmp_ip_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 248
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined array key "visible_name_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 270
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined variable $tags in /var/www/html/VILASECA/CMDB/public/api_action.php on line 274
+[09-Feb-2026 15:00:25 America/Santiago] PHP Warning:  Undefined variable $inventory_data in /var/www/html/VILASECA/CMDB/public/api_action.php on line 276
+[09-Feb-2026 15:00:25 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 15:00:25 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:08:32 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:08:32 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined array key "snmp_ip_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 248
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined array key "visible_name_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 270
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined variable $tags in /var/www/html/VILASECA/CMDB/public/api_action.php on line 274
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined variable $inventory_data in /var/www/html/VILASECA/CMDB/public/api_action.php on line 276
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined array key "snmp_ip_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 248
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined array key "visible_name_field" in /var/www/html/VILASECA/CMDB/public/api_action.php on line 270
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined variable $tags in /var/www/html/VILASECA/CMDB/public/api_action.php on line 274
+[09-Feb-2026 16:08:39 America/Santiago] PHP Warning:  Undefined variable $inventory_data in /var/www/html/VILASECA/CMDB/public/api_action.php on line 276
+[09-Feb-2026 16:08:39 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:08:39 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:16:01 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:16:01 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:16:05 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:16:05 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:16:05 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:18:17 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:18:17 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:18:22 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:18:22 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:18:22 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:18:22 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:20:54 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:20:54 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:21:06 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:21:06 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:21:06 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:21:06 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:21:55 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:21:55 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:22:13 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ap
+[09-Feb-2026 16:22:13 America/Santiago] Consultando tabla 'sheet_ap': Se encontraron 140 filas.
+[09-Feb-2026 16:27:05 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:27:05 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:27:37 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:27:37 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:27:37 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:27:37 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:36:24 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:36:24 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:36:38 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:36:38 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:36:39 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:36:39 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:37:07 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:37:07 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:37:07 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:40:15 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:40:15 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:40:21 America/Santiago] --- PROCESANDO CREACION: Tabla [sheet_equipos] ID [1] ---
+[09-Feb-2026 16:40:21 America/Santiago] PAYLOAD A ZABBIX: {"host":"HP - 5130-24G-4SFP\u00a0JG932A","name":"HP - 5130-24G-4SFP\u00a0JG932A","interfaces":[{"type":2,"main":1,"useip":1,"ip":"192.168.24.50","dns":"","port":"161","details":{"version":2,"community":"c0mpSEm593#"}}],"groups":[{"groupid":"131"}],"templates":[{"templateid":"10564"}],"inventory_mode":1,"inventory":{"type":"SWITCH","os":"Jose Luis Pesantes","hardware":"1","serialno_a":"1","location":"1","vendor":"Ecuador"},"tags":[{"tag":"propietario","value":"Jose Luis Pesantes"},{"tag":"ciudad","value":"Guayaquil"}]}
+[09-Feb-2026 16:40:21 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:40:21 America/Santiago] --- PROCESANDO CREACION: Tabla [sheet_equipos] ID [2] ---
+[09-Feb-2026 16:40:21 America/Santiago] PAYLOAD A ZABBIX: {"host":"HP - 5120\u00a0 - 24G","name":"HP - 5120\u00a0 - 24G","interfaces":[{"type":2,"main":1,"useip":1,"ip":"192.168.24.51","dns":"","port":"161","details":{"version":2,"community":"c0mpSEm593#"}}],"groups":[{"groupid":"131"}],"templates":[{"templateid":"10564"}],"inventory_mode":1,"inventory":{"type":"SWITCH","os":"Jose Luis Pesantes","hardware":"2","serialno_a":"2","location":"2","vendor":"Ecuador"},"tags":[{"tag":"propietario","value":"Jose Luis Pesantes"},{"tag":"ciudad","value":"Guayaquil"}]}
+[09-Feb-2026 16:40:21 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:40:21 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:40:21 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:46:23 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:46:23 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:46:30 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:46:30 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:46:30 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:46:30 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:49:20 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:49:20 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:49:25 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:49:25 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:49:25 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:49:49 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 16:49:49 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:49:49 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:51:36 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:51:36 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:51:40 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:51:40 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:52:51 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:52:51 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:55:44 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:55:44 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:55:48 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:55:48 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 16:59:50 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 16:59:50 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 17:34:11 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 17:34:11 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 17:34:57 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 17:34:57 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 162 filas.
+[09-Feb-2026 17:36:07 America/Santiago] PHP Warning:  preg_replace(): Unknown modifier 'h' in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 27
+[09-Feb-2026 17:36:39 America/Santiago] PHP Warning:  preg_replace(): Unknown modifier 'h' in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 27
+[09-Feb-2026 17:36:53 America/Santiago] PHP Warning:  preg_replace(): Unknown modifier 'h' in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 27
+[09-Feb-2026 17:43:29 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function is_logged_in() in /var/www/html/VILASECA/CMDB/public/api_upload_image.php:16
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/api_upload_image.php on line 16
+[09-Feb-2026 17:43:38 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function is_logged_in() in /var/www/html/VILASECA/CMDB/public/api_upload_image.php:16
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/api_upload_image.php on line 16
+[09-Feb-2026 17:47:22 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function is_logged_in() in /var/www/html/VILASECA/CMDB/public/api_upload_image.php:16
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/api_upload_image.php on line 16
+[09-Feb-2026 17:48:48 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function is_logged_in() in /var/www/html/VILASECA/CMDB/public/api_upload_image.php:16
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/api_upload_image.php on line 16
+[09-Feb-2026 17:49:16 America/Santiago] PHP Warning:  preg_replace(): Unknown modifier 'h' in /var/www/html/VILASECA/CMDB/public/item_create.php on line 18
+[09-Feb-2026 17:49:49 America/Santiago] PHP Warning:  preg_replace(): Unknown modifier 'h' in /var/www/html/VILASECA/CMDB/public/item_create.php on line 18
+[09-Feb-2026 17:55:35 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 17:55:35 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:00:45 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:00:45 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:01:30 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:01:30 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:02:41 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:02:41 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:02:44 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:02:44 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:05:26 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:05:26 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:05:33 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:05:33 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:06:21 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:06:21 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:06:21 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:06:21 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:06:21 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:06:23 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:06:23 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:07:02 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:07:02 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:11:31 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:11:31 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:11:46 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:11:46 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:13:49 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:13:49 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:14:36 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:14:41 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:14:49 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:14:49 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:15:00 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:15:00 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:16:22 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:16:22 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:17:37 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:17:37 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:17:46 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:17:46 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:19:58 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:19:58 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:20:02 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ap
+[09-Feb-2026 18:20:02 America/Santiago] Consultando tabla 'sheet_ap': Se encontraron 140 filas.
+[09-Feb-2026 18:20:08 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ap
+[09-Feb-2026 18:20:08 America/Santiago] Consultando tabla 'sheet_ap': Se encontraron 140 filas.
+[09-Feb-2026 18:20:29 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_relaciones
+[09-Feb-2026 18:20:29 America/Santiago] Consultando tabla 'sheet_relaciones': Se encontraron 4 filas.
+[09-Feb-2026 18:20:56 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:20:56 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:21:01 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_servers_virtuales
+[09-Feb-2026 18:21:01 America/Santiago] Consultando tabla 'sheet_servers_virtuales': Se encontraron 61 filas.
+[09-Feb-2026 18:21:06 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ups
+[09-Feb-2026 18:21:06 America/Santiago] Consultando tabla 'sheet_ups': Se encontraron 36 filas.
+[09-Feb-2026 18:24:25 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:24:25 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:24:39 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:24:39 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:26:41 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:26:41 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:27:41 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:27:41 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:27:41 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:27:41 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:27:41 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:27:41 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:27:43 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:27:43 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:29:47 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:29:47 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:30:23 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 18:46:00 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:46:00 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 18:46:11 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 18:46:11 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:15:24 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:15:24 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:15:35 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:15:35 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:15:39 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:15:39 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:19:11 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:19:11 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:21:25 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:21:25 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:21:32 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:21:33 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:21:33 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:21:48 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:21:50 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:21:50 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[09-Feb-2026 19:22:12 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:22:12 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[09-Feb-2026 19:26:53 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[09-Feb-2026 19:26:53 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[10-Feb-2026 11:25:29 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[10-Feb-2026 11:25:29 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[10-Feb-2026 11:25:29 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[10-Feb-2026 11:25:29 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[10-Feb-2026 11:39:28 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 11:39:28 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[10-Feb-2026 11:39:36 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 11:39:36 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[10-Feb-2026 11:47:36 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 11:47:36 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[10-Feb-2026 12:30:20 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 12:30:20 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[10-Feb-2026 12:30:54 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 12:30:54 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[10-Feb-2026 12:31:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:11 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:12 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:12 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[10-Feb-2026 12:31:13 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 12:31:13 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 164 filas.
+[10-Feb-2026 12:46:35 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[10-Feb-2026 12:46:35 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/src/auth.php on line 7
+[10-Feb-2026 12:46:35 America/Santiago] PHP Warning:  session_start(): Session ID is too long or contains illegal characters. Only the A-Z, a-z, 0-9, &quot;-&quot;, and &quot;,&quot; characters are allowed in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[10-Feb-2026 12:46:35 America/Santiago] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /var/www/html/VILASECA/CMDB/public/login.php on line 5
+[10-Feb-2026 13:36:42 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:36:42 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 13:36:47 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:36:47 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 13:41:42 America/Santiago] Uncaught Exception: SQLSTATE[HY000]: General error: 1364 Field 'sheet_name' doesn't have a default value
+[10-Feb-2026 13:42:47 America/Santiago] Uncaught Exception: SQLSTATE[HY000]: General error: 1364 Field 'sheet_name' doesn't have a default value
+[10-Feb-2026 13:44:31 America/Santiago] Uncaught Exception: SQLSTATE[HY000]: General error: 1364 Field 'sheet_name' doesn't have a default value
+[10-Feb-2026 13:48:04 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'h.sheet_table_name' in 'WHERE' in /var/www/html/VILASECA/CMDB/public/history.php:27
+Stack trace:
+#0 /var/www/html/VILASECA/CMDB/public/history.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/history.php on line 27
+[10-Feb-2026 13:48:26 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'h.sheet_table_name' in 'WHERE' in /var/www/html/VILASECA/CMDB/public/history.php:27
+Stack trace:
+#0 /var/www/html/VILASECA/CMDB/public/history.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/history.php on line 27
+[10-Feb-2026 13:48:39 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:48:39 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 13:48:51 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:48:51 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 13:54:07 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:54:07 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 13:54:19 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:54:19 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 13:56:19 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:56:19 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 13:57:13 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 13:57:13 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 14:00:55 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 14:00:55 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 14:01:02 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 14:01:02 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 14:19:08 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 14:19:08 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 14:19:55 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 14:19:55 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 17:53:59 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 17:53:59 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:04:47 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:04:47 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:05:03 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:05:03 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:06:49 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:06:49 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:06:53 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:06:53 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:08:23 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:08:23 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:08:26 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:08:26 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:10:18 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:10:18 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:10:36 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:10:36 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:23:53 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:23:53 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:24:02 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:24:02 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:27:54 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:27:54 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:27:58 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:27:58 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:35:06 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:35:06 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:35:13 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:35:13 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:35:41 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:35:41 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 18:52:14 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[10-Feb-2026 18:52:14 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[10-Feb-2026 19:06:43 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'h.sheet_table_name' in 'WHERE' in /var/www/html/VILASECA/CMDB/public/history.php:27
+Stack trace:
+#0 /var/www/html/VILASECA/CMDB/public/history.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/history.php on line 27
+[11-Feb-2026 17:33:56 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/VILASECA/CMDB/public/partials/sidebar.php:53) in /var/www/html/VILASECA/CMDB/src/auth.php on line 33
+[11-Feb-2026 17:33:58 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/VILASECA/CMDB/public/partials/sidebar.php:53) in /var/www/html/VILASECA/CMDB/src/auth.php on line 33
+[11-Feb-2026 17:34:01 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/VILASECA/CMDB/public/partials/sidebar.php:53) in /var/www/html/VILASECA/CMDB/src/auth.php on line 33
+[11-Feb-2026 17:34:12 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[11-Feb-2026 17:34:12 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[12-Feb-2026 12:54:33 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[12-Feb-2026 12:54:33 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[12-Feb-2026 12:54:57 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:57 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:57 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:57 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:57 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:58 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:59 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:59 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:59 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:59 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:59 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:59 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:54:59 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:00 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:00 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:00 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:00 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:00 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:01 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:01 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:01 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:02 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:03 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:03 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:03 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:03 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:04 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:04 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:04 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:04 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:04 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:05 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:06 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:06 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:07 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:08 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:08 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:08 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:08 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:08 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:08 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:08 America/Santiago] Uncaught Exception: Cannot access offset of type string on string
+[12-Feb-2026 12:55:09 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[12-Feb-2026 12:55:09 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[12-Feb-2026 12:57:26 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_equipos
+[12-Feb-2026 12:57:26 America/Santiago] Consultando tabla 'sheet_equipos': Se encontraron 161 filas.
+[12-Feb-2026 14:23:21 America/Santiago] Acción 'get_cmdb_data_for_zabbix' iniciada. Tablas solicitadas: sheet_ap
+[12-Feb-2026 14:23:21 America/Santiago] Consultando tabla 'sheet_ap': Se encontraron 140 filas.
+[12-Feb-2026 14:51:35 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function is_logged_in() in /var/www/html/VILASECA/CMDB/public/api_upload_image.php:16
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/api_upload_image.php on line 16
+[12-Feb-2026 15:01:42 America/Santiago] PHP Warning:  require_once(/var/www/html/VILASECA/CMDB/public/../partials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 32
+[12-Feb-2026 15:01:42 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/VILASECA/CMDB/public/../partials/header.php' (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/item_detail.php:32
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 32
+[12-Feb-2026 15:01:44 America/Santiago] PHP Warning:  require_once(/var/www/html/VILASECA/CMDB/public/../partials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 32
+[12-Feb-2026 15:01:44 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/VILASECA/CMDB/public/../partials/header.php' (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/item_detail.php:32
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 32
+[12-Feb-2026 15:01:53 America/Santiago] PHP Warning:  require_once(/var/www/html/VILASECA/CMDB/public/../partials/header.php): Failed to open stream: No such file or directory in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 32
+[12-Feb-2026 15:01:53 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/VILASECA/CMDB/public/../partials/header.php' (include_path='.:/usr/share/php') in /var/www/html/VILASECA/CMDB/public/item_detail.php:32
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/VILASECA/CMDB/public/item_detail.php on line 32

@@ -1,0 +1,175 @@
+/* CMDB Vilaseca - Professional Light Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css');
+
+:root {
+  --primary: #007bff;
+  --primary-hover: #0056b3;
+  --sidebar-bg: #ffffff;
+  --body-bg: #f4f6f9; 
+  --card-bg: #ffffff;
+  --border-color: #e3e6f0;
+  --text-color: #333;
+  --text-muted: #6c757d;
+  --sidebar-link-color: #495057;
+  --sidebar-active-bg: #eef5ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.app-shell {
+  padding-top: 1rem;
+}
+
+/* Cards & Layout */
+.sheet-card { 
+  background: var(--card-bg); 
+  border-radius: .5rem;
+  padding: 2rem; /* Generous padding */
+  border: 1px solid var(--border-color);
+  margin-bottom: 2rem; /* Increased separation */
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+/* Header */
+.navbar {
+    background-color: var(--card-bg) !important;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,0.05);
+}
+.navbar-brand {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--sidebar-bg);
+    border-right: 1px solid var(--border-color);
+}
+.sidebar .nav-link { 
+  color: var(--sidebar-link-color); 
+  border-radius: 6px; 
+  padding: 12px 16px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-weight: 500;
+}
+.sidebar .nav-link:hover { 
+    background-color: var(--sidebar-active-bg); 
+    color: var(--primary); 
+}
+.sidebar .nav-link.active { 
+    background-color: var(--sidebar-active-bg); 
+    color: var(--primary); 
+    font-weight: 600; 
+}
+#cmdbSubmenu .nav-link {
+    padding-left: 2.5rem;
+    font-size: 0.9em;
+}
+.sidebar h5 {
+    padding: 0 1rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.sidebar hr {
+    margin: 1rem 1rem;
+    border-color: var(--border-color);
+}
+
+
+/* Tables */
+.table {
+    border-color: var(--border-color);
+}
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    border-bottom-width: 2px;
+}
+.table th, .table td {
+    border-color: var(--border-color);
+    min-width: 150px;
+    padding: 1rem;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+.data-row:hover {
+    background-color: #e9ecef;
+}
+
+/* Forms */
+.form-control, .form-select {
+    border-color: #ced4da;
+    padding: 0.75rem 1rem;
+    height: auto;
+}
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 0.35rem;
+    padding: 0.5rem 1rem;
+}
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+    .content-wrapper .content .container-fluid {
+        padding: 0.5rem;
+    }
+
+    .sheet-card {
+        padding: 1rem;
+    }
+
+    .table {
+        font-size: 0.85rem; /* Smaller font for tables on mobile */
+    }
+
+    .table th, .table td {
+        padding: 0.5rem;
+        min-width: 120px; /* Allow columns to be a bit smaller */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .d-flex.justify-content-end.gap-2 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .d-flex.justify-content-end.gap-2 .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
